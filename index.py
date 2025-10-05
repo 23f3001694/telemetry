@@ -7,6 +7,9 @@ import json
 
 app = FastAPI()
 #yo
+#fuck
+
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
