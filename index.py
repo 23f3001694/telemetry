@@ -6,7 +6,7 @@ from pathlib import Path
 import json
 
 app = FastAPI()
-
+#yo
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
